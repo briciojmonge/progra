@@ -1,0 +1,29 @@
++cargar el mazo
++sacrificar carta==desventaja (elimina la carta del jugador)
++descartar carta==ventaja (elimina una carta del adversario)
++robar carta==magia (toma carta nueva del maso)
++pasar al establo
++seleccionar carta del mazo(aleatorea)
++escoger que carta usar
++recibir una carta en cada turno
++5 unicornios en el establo==ganar
++conteo de turnos
++sumar cartas, si hay 6 en la mano de uno de los dos, eliminar una
+-condiciones de parada: gane==5 cartas en "mi" establo, pérdida== 5 cartas en el otro establo, 
+o se acaba el mazo sin un ganador
+entradas==mazo inical(global), 
++interfaz de colores
++mostrar mazo completo y ver cuales cartas no han salido
+
+1. Sacrificar
+2. Descartar
+3. Robar
+4. Pasar al establo
+5. Seleccionar carta del mazo
+6. Asignar carta del mazo a la mano
+7. Seleccionar carta de la mano
+8. Pasar cartas al establo
+9. Control de turnos
+10. Interfaz bonita.
+**color y fuentes de terminal: "print("\x1b[1;33m"+"Texto en negrita de color amarillo") "
+

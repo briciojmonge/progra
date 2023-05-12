@@ -1,0 +1,31 @@
+#básicamente codigo de la progra
+
+
+global archivo
+archivo=input()
+
+
+
+def retornar_contenido_arch(nombre_archivo):#da los contenidos como un string
+    "retorna el texto"
+    manejador_arch=open(nombre_archivo, encoding="utf-8")
+    contenidos=manejador_arch.read()
+    print (contenidos)
+
+"""def dividisor(contenidos):
+    contenidos=retornar_contenido_arch(archivo)
+    if type(contenidos)!=str:
+        return False
+    else:
+        return divisor(contenidos,0,len(contenidos),"")
+def divisor(texto,ind,largo,lista):
+    if ind>largo:
+        return lista
+    if texto[ind]!="\n\n":
+        return divisor(texto,ind+1,largo,lista+texto[ind])
+    else:
+        return divisor(texto,ind+1,largo,lista)
+    
+print (dividisor)"""
+nombre_archivo=archivo
+print (retornar_contenido_arch(nombre_archivo))
