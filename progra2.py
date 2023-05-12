@@ -34,6 +34,8 @@ print(dividisor(nombre_archivo))
 
 """estoy viendo si puedo arreglar esto"""
 #si puede fijese si no hay alguna configuracion que me permita correr el codigo, ya que no me deja con su archivo xdxd
+"listo"
+"escriba algo si ve mi cambio"
 
 """problema 1: máxima recusividad con ""dividisor"", picha, 
 basicamente aumentar el maximo de recursividad tampoco me sirvió, hay que encontrar otra forma o no sé jaja"""
